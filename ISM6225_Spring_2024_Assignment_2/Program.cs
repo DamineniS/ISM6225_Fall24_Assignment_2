@@ -10,7 +10,7 @@ namespace Assignment_2
             // Question 1: Find Missing Numbers in Array
             Console.WriteLine("Question 1:");
             int[] nums1 = [4,3,2,7,8,2,3,1]; // Example input
-            // { 1,1,1,2,2,2,3,3,3,4,5,12};
+            // { 1,1,1,2,2,2,3,3,3,4,5,12}; //the length of the file should match the maximum number in the array
             // {1,1}
             IList<int> missingNumbers = FindMissingNumbers(nums1);
             Console.WriteLine(string.Join(",", missingNumbers));
